@@ -1,0 +1,26 @@
+#tarifs {
+    font-family: Helvetica, sans-serif;
+    pointer-events: none;
+    position: relative;
+    z-index: 10000;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    overflow: hidden;
+
+    & dl {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    & dd, & dt {
+        background-color: white;
+        padding: 10px;
+        color: black;
+        display: inline-block;
+        font-size: 55px;
+        text-transform: uppercase;
+    }
+}

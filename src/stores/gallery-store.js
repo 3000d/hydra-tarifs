@@ -51,7 +51,6 @@ export default function galleryStore(state, emitter) {
         })
         // repl.eval(editor.getValue(), (code, error) => {
         //   //  console.log('evaluated', code, error)
-         
         // })
       })
 

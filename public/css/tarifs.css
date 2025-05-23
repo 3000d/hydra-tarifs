@@ -20,7 +20,11 @@
         padding: 10px;
         color: black;
         display: inline-block;
-        font-size: 55px;
+        font-size: 45px;
         text-transform: uppercase;
+    }
+    
+    & dd {
+        font-weight: bold;
     }
 }

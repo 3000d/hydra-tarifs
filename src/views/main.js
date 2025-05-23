@@ -34,11 +34,7 @@ export default function mainView(state, emit) {
           <dd>2€</dd>
         </dl>
         <dl>
-          <dt>Klak Maté</dt>
-          <dd>3€</dd>
-        </dl>
-        <dl>
-          <dt>Sowa Ginger Beer</dt>
+          <dt>Klak Maté // Ginger Beer </dt>
           <dd>3€</dd>
         </dl>
         <dl>

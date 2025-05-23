@@ -3,10 +3,10 @@
     pointer-events: none;
     position: relative;
     z-index: 10000;
-    margin-top: 10vh;
+    margin-top: 7vh;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 90%;
     overflow: hidden;
 
     & dl {

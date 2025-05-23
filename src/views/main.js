@@ -49,6 +49,10 @@ export default function mainView(state, emit) {
           <dt>Vin blanc / rouge</dt>
           <dd>3€</dd>
         </dl>
+        <dl>
+          <dt>Moscow Mule / Moscow Mate</dt>
+          <dd>8€</dd>
+        </dl>
       </div>
 
       </body>

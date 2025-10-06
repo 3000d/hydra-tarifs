@@ -42,16 +42,8 @@ export default function mainView(state, emit) {
           <dd>2€</dd>
         </dl>
         <dl>
-          <dt>Delta IPA</dt>
+          <dt>Delta IPA / Duvel</dt>
           <dd>4.5€</dd>
-        </dl>
-        <dl>
-          <dt>Delta IPA</dt>
-          <dd>4.5€</dd>
-        </dl>
-        <dl>
-          <dt>Moscow Mule / Moscow Mate</dt>
-          <dd>8€</dd>
         </dl>
       </div>
 

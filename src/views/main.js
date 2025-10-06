@@ -26,28 +26,28 @@ export default function mainView(state, emit) {
 
       <div id="tarifs">
         <dl>
-          <dt>Eau plate / pétillante</dt>
+          <dt>Eau plate</dt>
           <dd>Gratuit</dd>
         </dl>
         <dl>
-          <dt>Fritz Cola 0</dt>
+          <dt>Coca / Coca zéro</dt>
           <dd>2€</dd>
         </dl>
         <dl>
-          <dt>Klak Maté // Ginger Beer </dt>
-          <dd>3€</dd>
+          <dt>Pils 33cl</dt>
+          <dd>2,5€</dd>
         </dl>
         <dl>
-          <dt>Pils</dt>
+          <dt>Jupiler 0.0</dt>
           <dd>2€</dd>
         </dl>
         <dl>
-          <dt>Smash Field</dt>
-          <dd>3.5€</dd>
+          <dt>Delta IPA</dt>
+          <dd>4.5€</dd>
         </dl>
         <dl>
-          <dt>Vin blanc / rouge</dt>
-          <dd>3€</dd>
+          <dt>Delta IPA</dt>
+          <dd>4.5€</dd>
         </dl>
         <dl>
           <dt>Moscow Mule / Moscow Mate</dt>

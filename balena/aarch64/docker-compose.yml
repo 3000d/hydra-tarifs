@@ -1,0 +1,11 @@
+version: "2.1"
+
+services:
+  browser:
+    image: bh.cr/balenalabs/browser-aarch64
+    privileged: true
+    environment:
+      - KIOSK=1
+      - SHOW_CURSOR=0
+      - ENABLE_GPU=1
+      - LAUNCH_URL=https://overflow.gallery

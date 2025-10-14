@@ -28,16 +28,20 @@ export default function mainView(state, emit) {
           <dd>2€</dd>
         </dl>
         <dl>
-          <dt>Pils 33cl</dt>
+          <dt>Jupiler / Jupiler 0.0</dt>
           <dd>2,5€</dd>
         </dl>
         <dl>
-          <dt>Jupiler 0.0</dt>
-          <dd>2€</dd>
+          <dt>Delta IPA / Duvel Triple Hop</dt>
+          <dd>4.5€</dd>
         </dl>
         <dl>
-          <dt>Delta IPA / Duvel</dt>
-          <dd>4.5€</dd>
+          <dt>Vin Blanc / Rouge</dt>
+          <dd>4€</dd>
+        </dl>
+        <dl>
+          <dt>Maté-Maté</dt>
+          <dd>4€</dd>
         </dl>
       </div>
     `;

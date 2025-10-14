@@ -15,8 +15,33 @@ export default function mainView(state, emit) {
 
     
     const urlParams = new URLSearchParams(window.location.search);
-    const hideMenu = urlParams.get('hide-menu');
-
+    const hideMenu = urlParams.get('hide_menu');
+    
+    const tarifs = html`
+      <div id="tarifs">
+        <dl>
+          <dt>Eau plate</dt>
+          <dd>Gratuit</dd>
+        </dl>
+        <dl>
+          <dt>Coca / Coca zéro</dt>
+          <dd>2€</dd>
+        </dl>
+        <dl>
+          <dt>Pils 33cl</dt>
+          <dd>2,5€</dd>
+        </dl>
+        <dl>
+          <dt>Jupiler 0.0</dt>
+          <dd>2€</dd>
+        </dl>
+        <dl>
+          <dt>Delta IPA / Duvel</dt>
+          <dd>4.5€</dd>
+        </dl>
+      </div>
+    `;
+    
     return html`
       <body>
       <div id="hydra-ui">
@@ -26,31 +51,8 @@ export default function mainView(state, emit) {
       </div>
 
       ${state.cache(Editor, 'editor').render(state, emit)}
-
-      ${!hideMenu && (
-          <div id="tarifs">
-            <dl>
-              <dt>Eau plate</dt>
-              <dd>Gratuit</dd>
-            </dl>
-            <dl>
-              <dt>Coca / Coca zéro</dt>
-              <dd>2€</dd>
-            </dl>
-            <dl>
-              <dt>Pils 33cl</dt>
-              <dd>2,5€</dd>
-            </dl>
-            <dl>
-              <dt>Jupiler 0.0</dt>
-              <dd>2€</dd>
-            </dl>
-            <dl>
-              <dt>Delta IPA / Duvel</dt>
-              <dd>4.5€</dd>
-            </dl>
-          </div>
-      )}
+      
+      ${!hideMenu && tarifs}
 
       </body>
     `

@@ -56,7 +56,7 @@ export default function mainView(state, emit) {
 
       ${state.cache(Editor, 'editor').render(state, emit)}
       
-      ${!hideMenu && tarifs}
+      ${!hideMenu ? tarifs : null}
 
       </body>
     `

@@ -20,7 +20,7 @@ export default function mainView(state, emit) {
     const tarifs = html`
       <div id="tarifs">
         <dl>
-          <dt>Eau plate</dt>
+          <dt>Eau plate / pétillante</dt>
           <dd>Gratuit</dd>
         </dl>
         <dl>

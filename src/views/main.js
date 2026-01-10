@@ -1,6 +1,6 @@
-import html from 'choo/html'
-import Hydra from './Hydra.js'
-import Editor from './EditorComponent.js'
+import html from 'choo/html';
+import Editor from './EditorComponent.js';
+import Hydra from './Hydra.js';
 // import Editor from './EditorCm6.js'
 
 let yo = true;
@@ -25,19 +25,23 @@ export default function mainView(state, emit) {
         </dl>
         <dl>
           <dt>Softs</dt>
-          <dd>2€ / 2.5€</dd>
+          <dd>2.5€</dd>
         </dl>
         <dl>
           <dt>Jupiler / Jupiler 0.0</dt>
           <dd>2,5€</dd>
         </dl>
         <dl>
-          <dt>Maté-Maté</dt>
+          <dt>Klak Maté</dt>
           <dd>4€</dd>
         </dl>
         <dl>
-          <dt>IPA / IPA 0.0</dt>
+          <dt>IPA | Field </dt>
           <dd>4.5€</dd>
+        </dl>
+        <dl>
+          <dt>Vin blanc / rouge</dt>
+          <dd>4€</dd>
         </dl>
       </div>
     `;

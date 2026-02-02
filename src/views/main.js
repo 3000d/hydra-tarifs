@@ -39,10 +39,10 @@ export default function mainView(state, emit) {
           <dt>IPA | Field </dt>
           <dd>4.5€</dd>
         </dl>
-        <dl>
-          <dt>Vin blanc / rouge</dt>
-          <dd>4€</dd>
-        </dl>
+<!--        <dl>-->
+<!--          <dt>Vin blanc / rouge</dt>-->
+<!--          <dd>4€</dd>-->
+<!--        </dl>-->
       </div>
     `;
     

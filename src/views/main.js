@@ -24,7 +24,7 @@ export default function mainView(state, emit) {
           <dd>Gratuit</dd>
         </dl>
         <dl>
-          <dt>Softs (Coca, Coca Zero, San Pelegrino)</dt>
+          <dt>Softs</dt>
           <dd>2.5€</dd>
         </dl>
         <dl>
@@ -33,16 +33,12 @@ export default function mainView(state, emit) {
         </dl>
         <dl>
           <dt>Vin blanc / rouge</dt>
-          <dd4€</dd>
+          <dd>d4€</dd>
         </dl>
         <dl>
           <dt>Delta / Delta Zero / Norm</dt>
           <dd>4.5€</dd>
         </dl>
-<!--        <dl>-->
-<!--          <dt>Vin blanc / rouge</dt>-->
-<!--          <dd>4€</dd>-->
-<!--        </dl>-->
       </div>
     `;
     

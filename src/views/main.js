@@ -20,20 +20,20 @@ export default function mainView(state, emit) {
     const tarifs = html`
       <div id="tarifs">
         <dl>
-          <dt>Eau plate</dt>
+          <dt>Eau plate ou pétillante</dt>
           <dd>Gratuit</dd>
         </dl>
         <dl>
-          <dt>Softs</dt>
-          <dd>2.5€</dd>
+          <dt>Coca, Coca Zéro, Limonades</dt>
+          <dd>2€</dd>
+        </dl>
+        <dl>
+          <dt>Mate Mate</dt>
+          <dd>4€</dd>
         </dl>
         <dl>
           <dt>Jupiler / Jupiler 0.0</dt>
           <dd>2,5€</dd>
-        </dl>
-        <dl>
-          <dt>Vin blanc / rouge</dt>
-          <dd>4€</dd>
         </dl>
         <dl>
           <dt>Delta / Delta Zero / Norm</dt>

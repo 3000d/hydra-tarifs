@@ -28,13 +28,9 @@ export default function mainView(state, emit) {
           <dd>2€</dd>
         </dl>
         <dl>
-          <dt>Mate Mate</dt>
-          <dd>4€</dd>
-        </dl>
-        <dl>
           <dt>Jupiler / Jupiler 0.0</dt>
           <dd>2,5€</dd>
-        </dl>
+        </dl> 
         <dl>
           <dt>Delta / Delta Zero / Norm</dt>
           <dd>4.5€</dd>

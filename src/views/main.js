@@ -35,6 +35,10 @@ export default function mainView(state, emit) {
           <dt>Delta / Delta Zero / Norm</dt>
           <dd>4.5€</dd>
         </dl>
+        <dl>
+          <dt>Vin rouge / blanc</dt>
+          <dd>4€</dd>
+        </dl>
       </div>
     `;
     
